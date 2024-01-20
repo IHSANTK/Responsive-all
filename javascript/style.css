@@ -1,0 +1,57 @@
+body {
+   
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+.container{
+    margin: 50px auto;
+    background-color: #979c97;
+    box-shadow: 0 0 15px black;
+    border-radius: 5px;
+    
+}
+.form-controls{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-left: 10px;
+   
+ 
+   
+  
+}
+.form-controls::placeholder{
+    font-size: small;
+}
+
+
+#calculate-button{
+    background-color: #210557;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+   margin-left: 30px;
+
+  
+}
+
+#calculate-button:hover {
+    background-color: #155318;
+}
+#total{
+ font-size: x-large;
+    
+}
+#netResult{
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+
